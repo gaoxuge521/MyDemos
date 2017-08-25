@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <EditText
+            android:id="@+id/receiver_mobile"
+            style="@style/app_edit_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:hint="请填写收件电话"
+            android:inputType="phone"
+            android:maxLength="21"
+            android:singleLine="true"
+            android:text=""/>
+        <TextView
+            android:gravity="bottom|center_vertical"
+            android:layout_alignRight="@id/receiver_mobile"
+            android:layout_centerVertical="true"
+            android:id="@+id/login_audio_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="点击获取语音验证码"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

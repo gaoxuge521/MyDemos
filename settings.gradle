@@ -1,0 +1,69 @@
+include ':app'
+//fragment切换动画
+include ':fragmentanimations'
+//toast
+include ':loadtoast'
+//支付宝仪表盘
+include ':view'
+//好看的下拉动画
+include ':library'
+//无限轮训，双向互动的viewpager
+include ':infinitecycleviewpager'
+//任意形状的图形
+include ':avatarimageviewlibrary'
+//炫酷的爆炸效果，常用于点赞
+include ':shinebuttonlib'
+//列表的首个item拉伸
+include ':focusresize'
+//沉浸式状态栏
+include ':librarys'
+//RoundImageView圆形图片和可控位置圆角图片
+include ':roundimageview'
+//点击延伸放大
+include ':marypopup'
+//可以添加头部和底部的recycleview
+include ':headerfooterrecyclerview'
+//用户指引的view
+include ':Userguidelibrary'
+//填充进度
+include ':fillablelibrary'
+//水滴下拉
+include ':swipeslibrary'
+//圆形菜单
+include ':circularmenu'
+//为android提供下拉刷新，基于SwipeRefreshLayout，支持所有的View
+include ':recyclerrefreshlayout'
+//activity可以滑动关闭
+include ':swipebackhelper'
+//下拉刷新上拉加载
+include ':easyrecyclerview'
+//给视图增加弧度效果的布局
+include ':arclayout'
+//一款tablayout控件
+include ':spacetablayout'
+//一个动态的选择器
+include ':sweetsheet'
+//一个蛛网平方、
+include ':spiderwebscoreview'
+//类似吹泡泡的效果、
+include ':heartlayout'
+//一款搜索动画框、
+include ':searchlibrary'
+//多条件筛选菜单、
+include ':filterlibrary'
+//加载动画1、
+include ':loadlibrary'
+//加载动画2、
+include ':shapeloading'
+//自定义蜂窝图
+include ':hivelayoutmanager-library'
+//加载动画4
+include ':spinkitlibrary'
+//加载动画6
+include ':rubberlibrary'
+//加载动画7
+include ':libloading'
+
+
+
+

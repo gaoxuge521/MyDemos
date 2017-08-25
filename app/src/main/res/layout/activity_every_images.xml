@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".RenYiXingZhuang.EveryImagesActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/rectangle_shape_three"
+            android:src="@drawable/a" />
+
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/rectangle_shape"
+            android:src="@drawable/d"
+            />
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/oval_shape"
+            android:src="@drawable/c"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/rectangle_shape_two"
+            android:src="@drawable/b" />
+
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_a"
+            android:src="@drawable/e"
+            />
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_b"
+            android:src="@drawable/f"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_c"
+            android:src="@drawable/a" />
+
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_d"
+            android:src="@drawable/c"
+            />
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_e"
+            android:src="@drawable/b"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_one"
+            android:src="@drawable/one" />
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/aini"
+            android:src="@drawable/b" />
+
+        <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/pingzi"
+            android:src="@drawable/b" />
+    </LinearLayout>
+
+    <cn.fanrunqi.avatarimageviewlibrary.AvatarImageView
+        android:id="@+id/imgview"
+        android:layout_width="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/round"
+        android:src="@drawable/b"
+        />
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img"/>
+
+    <TextView
+        android:text="背景上阿里图标库找，中间白，周围透明"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

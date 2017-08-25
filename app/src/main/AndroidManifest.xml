@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yc.mdemos.mydemos">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 获取mac地址权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取手机信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- 请求访问网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 请求访问网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 请求访问使用照相设备 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 百度地图 -->
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" > -->
+    <!-- </uses-permission> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"></uses-permission> -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- SDK1.5需要android.permission.GET_TASKS权限判断本程序是否为当前运行的应用? -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 来电消音 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- 百度地图 -->
+    <application
+        android:name=".fragmentQieHuanDongHua.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragmentQieHuanDongHua.FragmentChangeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".loadToast.LoadToastActivity" />
+        <activity android:name=".zhifubaoYiBiaoPan.ZhiFuBaoYiBiaoPanActivity" />
+        <activity android:name=".xialadonghua.XiaLaDongHuaActivity" />
+        <activity android:name=".shuangxiangViewpager.screens.MyHengShuViewpagerActivity" />
+        <activity android:name=".RenYiXingZhuang.EveryImagesActivity" />
+        <activity android:name=".dianzanview.DianZanViewActivity" />
+        <activity android:name=".firstItemLaSheng.FirstItemLaShengActivity" />
+        <activity android:name=".chenjinshiZhuangTaiLan.ChenJinShiActivity" />
+        <activity
+            android:name=".chenjinshiZhuangTaiLan.ColorStatusBarActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".chenjinshiZhuangTaiLan.ImageStatusBarActivity" />
+        <activity android:name=".chenjinshiZhuangTaiLan.ImageViewActivity" />
+        <activity android:name=".chenjinshiZhuangTaiLan.UseInFragmentActivity" />
+        <activity android:name=".gouwucheTeXiao.com.nianxin.github.animation.GouWuCheActivity" />
+        <activity android:name=".gouwucheTeXiao.com.nianxin.github.animation.TopicActivity" />
+        <activity android:name=".gouwucheTeXiao.com.nianxin.github.animation.TweenActivity" />
+        <activity android:name=".gouwucheTeXiao.com.nianxin.github.animation.Property4ObjectActivity" />
+        <activity android:name=".gouwucheTeXiao.com.nianxin.github.animation.Property4ViewActivity" />
+        <activity android:name=".gouwucheTeXiao.com.nianxin.github.animation.FoodActivity" />
+        <activity android:name=".mojiXiaxuedonghua.MoJiXiaXueActivity" />
+        <activity android:name=".tanmu.TanMuActivity" />
+        <activity android:name=".shuibowenxiaoguo.WaveActivity" />
+        <activity android:name=".yuanxinghekekongyuanjiao.RoundImageActivity" />
+        <activity android:name=".yuanhejuxingImg.YuanHeJuXingActivity" />
+        <activity android:name=".yanshenfangda.YanShenFangDaActivity" />
+        <activity android:name=".yanshenfangda.PopupActivity" />
+        <activity android:name=".yanshenfangda.PopupDraggableActivity" />
+        <activity android:name=".yanshenfangda.PopupNotDraggableActivity" />
+        <activity android:name=".yanshenfangda.PopupScaleDownDraggableActivity" />
+        <activity android:name=".yanshenfangda.PopupFadeOutDraggableActivity" />
+        <activity android:name=".yanshenfangda.PopupCenterActivity" />
+        <activity android:name=".yanshenfangda.PopupImageActivity" />
+        <activity android:name=".toubuhedibuderecycleview.TouBuJiaoBuRecycleActivity" />
+        <activity android:name=".yonghuzhiyin.UserGuideTestActivity" />
+        <activity android:name=".tianchongjindu.TianChongJinDuActivity" />
+        <activity android:name=".shuidixiala.ShuiDiXiaLaActivity" />
+        <activity android:name=".fangmeituanpaowuxiandonghua.MeiTuanActivity" />
+        <activity android:name=".luyin.LuYinActivity" />
+        <activity android:name=".fangchuizishijiandeview.ChuiZiTimeViewActivity" />
+        <activity android:name=".phoneXinXi.DangQianShoujiXinXiActivity" />
+        <activity android:name=".yuanxingcaidan.YuanXingCaiDanActivity" />
+        <activity android:name=".wannengxialashuaxin.demo.OpenProjectRefreshActivity" />
+        <activity android:name=".shipinpaishe.ShiPinPaiSheActivity" />
+        <activity
+            android:name=".shipinpaishe.RecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullTheme" />
+        <activity
+            android:name=".shipinpaishe.PlayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullTheme" />
+        <activity android:name=".huadongguanbiActivity.HuaDongCloseActivity" />
+        <activity
+            android:name=".huadongguanbiActivity.ListActivity"
+            android:label="ScrollActivity" />
+        <activity
+            android:name=".huadongguanbiActivity.TextActivity"
+            android:label="StaticActivity" />
+        <activity
+            android:name=".huadongguanbiActivity.ViewPagerActivity"
+            android:label="ViewPagerActivity" />
+        <activity android:name=".EasyRecycleView.EasyRecycleViewActivity" />
+        <activity
+            android:name=".EasyRecycleView.loadmore.RefreshAndMoreActivity"
+            android:label="@string/refresh_and_more" />
+        <activity
+            android:name=".EasyRecycleView.multistyle.MultiStyleActivity"
+            android:label="@string/multi_style" />
+        <activity
+            android:name=".EasyRecycleView.header.HeaderFooterActivity"
+            android:label="@string/header_and_footer" />
+        <activity
+            android:name=".EasyRecycleView.collapsing.CollapsingActivity"
+            android:label="@string/collapsing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyRecycleView.staggeredgrid.StaggeredGridActivity"
+            android:label="@string/staggered_grid" />
+        <activity
+            android:name=".EasyRecycleView.horizontal.HorizontalActivity"
+            android:label="@string/horizontal" />
+        <activity
+            android:name=".EasyRecycleView.sticky.StickyHeaderActivity"
+            android:label="@string/stiky_header" />
+        <activity
+            android:name=".EasyRecycleView.insert.InsertActivity"
+            android:label="@string/insert" />
+        <activity android:name=".huduShiTu.HuDuShiTuActivity" />
+        <activity android:name=".dibutablayoutxiaoguo.DiBuTabActivity" />
+        <activity android:name=".dongtaixuanzeqi.DongTaiXuanZeQiActivity" />
+        <activity android:name=".yuanxingxuanzhuancandan.YuanXingXuanZhuanActivity" />
+        <activity android:name=".yuanxingxuanzhuancandan.CCBActivity" />
+        <activity android:name=".yuanxingxuanzhuancandan.CircleActivity" />
+        <activity android:name=".zhuwangpingfen.ZhuWangPingFenActivity" />
+        <activity android:name=".shituliandong.UserGuideActivity" />
+        <activity android:name=".chuipaopao.ChuiPaoPaoActivity" />
+        <activity android:name=".yindaoview.YinDaoActivity" />
+        <activity android:name=".searchsousuo.SearchAnimationActivity" />
+        <activity android:name=".duotiaojieshaixuan.DuoTiaoJieShaiXuanActivity" />
+        <activity android:name=".yuyinshibie.xunfei.YuYinShiBieActivity" />
+        <activity android:name=".jiazaidonghua1.JiaZaiDongHua1Activity" />
+        <activity android:name=".jiazaidonghua2.JiaZaiDongHua2Activity" />
+        <activity android:name=".jiazaidonghua2.ViewDemoActivity" />
+        <activity android:name=".jiazaidonghua2.DialogDemoActivity" />
+        <activity android:name=".jiazaidonghua3.loadingviewlib.JiaZaiDongHua3Activity" />
+        <activity android:name=".fengwotu.FengWoTuActivity" />
+        <activity android:name=".fangbaiduwaimaixiala.BaiduXiaLaActivity" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="lbVzE590GQoYSAl12aOcOxVobv50HafZ" />
+
+        <activity
+            android:name=".baiduditu.BMapApiDemoMain"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="BaiduMapSDKDemo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".baiduditu.OffMap"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/demo_name_basemap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".baiduditu.Location"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/demo_name_location"
+            android:screenOrientation="portrait" />
+        <activity android:name=".baiduditu.OfflineDemo" />
+        <activity android:name=".baiduditu.Location2" />
+        <activity android:name=".baiduditu.Poisearch" />
+        <activity android:name=".baiduditu.RoutePlanDemo2" />
+        <activity android:name=".baiduditu.Poidemo" />
+        <activity android:name=".baiduditu.Rountplan2" />
+        <activity
+            android:name=".baiduditu.RoutePlanDemo"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/demo_name_route"
+            android:screenOrientation="portrait" />
+        <activity android:name=".baiduditu.Rountplan" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <activity android:name=".textviewduozhongyanse.TextViewsActivity" />
+        <activity android:name=".xialaxuanze.XiaLaXuanZeActivity" />
+        <activity
+            android:name=".fangelema.FangeLEmAActivity"
+            android:theme="@style/translucent" />
+        <activity android:name=".fangelema.HomeActivity" />
+        <activity android:name=".textviewmaxline.TextViewMaxLineActivity" />
+        <activity android:name=".hengxiangshuxiangdeviewpager.view.ShuangXiangViewPagerActivity" />
+        <activity android:name=".hengxiangshuxiangdeviewpager.view.AboutActivity" />
+        <activity android:name=".jiazaidonghua4.JiaZaiDongHua4Activity" />
+        <activity
+            android:name=".jiazaidonghua4.DetailActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".jiazaidonghua5.JiaZaiDongHua5Activity" />
+        <activity android:name=".jiazaidonghua6.JiaZaiDongHua6Activity" />
+        <activity android:name=".jiazaidonghua7.JiaZaiDongHua7Activity" />
+        <activity android:name=".jiazaidonghua7.BookActivity" />
+        <activity android:name=".jiazaidonghua7.NewtonCradleActivity" />
+        <activity android:name=".jiazaidonghua7.RotateActivity" />
+        <activity android:name=".jiazaidonghua8.JiaZaiDongHua8Activity"></activity>
+    </application>
+
+</manifest>

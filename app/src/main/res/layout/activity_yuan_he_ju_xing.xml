@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:fitsSystemWindows="true">
+
+    <com.yc.mdemos.mydemos.yuanhejuxingImg.CustomShapeImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/a"
+        app:customborderColor="@color/colorAccent"
+        app:customimageBorderWidth="2dp"
+        app:customonlyDrawBorder="false"
+        app:customshape="circle" />
+
+    <com.yc.mdemos.mydemos.yuanhejuxingImg.CustomShapeImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/a"
+        app:customborderColor="@android:color/holo_red_dark"
+        app:customimageBorderWidth="2dp"
+        app:customleftBottomRadius="10dp"
+        app:customleftTopRadius="30dp"
+        app:customonlyDrawBorder="false"
+        app:customrightBottomRadius="15dp"
+        app:customshape="rectangle" />
+
+    <com.yc.mdemos.mydemos.yuanhejuxingImg.CustomShapeImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ab"
+        app:customimageBorderWidth="3dp"
+        app:customborderColor="@color/colorAccent"
+        android:layout_marginLeft="30dp"
+        app:customonlyDrawBorder="false"
+        app:customroundRadius="5dp"
+        app:customshape="rectangle" />
+
+    <com.yc.mdemos.mydemos.yuanhejuxingImg.CustomShapeImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ab"
+        app:customimageBorderWidth="3dp"
+        app:customborderColor="@color/colorAccent"
+        app:customonlyDrawBorder="false"
+        app:customshape="arc" />
+
+    <com.yc.mdemos.mydemos.yuanhejuxingImg.CustomShapeImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ab"
+        android:layout_marginLeft="30dp"
+        app:customborderColor="@android:color/white"
+        app:customimageBorderWidth="3dp"
+        app:customonlyDrawBorder="false"
+        app:customshape="rectangle"
+        app:customleftTopRadius="20dp"
+        app:customrightTopRadius="20dp"
+        android:id="@+id/cus_img"
+       />
+
+</LinearLayout>

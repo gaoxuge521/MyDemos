@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyDemos.iml" filepath="$PROJECT_DIR$/MyDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Userguidelibrary/Userguidelibrary.iml" filepath="$PROJECT_DIR$/Userguidelibrary/Userguidelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arclayout/arclayout.iml" filepath="$PROJECT_DIR$/arclayout/arclayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/avatarimageviewlibrary/avatarimageviewlibrary.iml" filepath="$PROJECT_DIR$/avatarimageviewlibrary/avatarimageviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circularmenu/circularmenu.iml" filepath="$PROJECT_DIR$/circularmenu/circularmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyrecyclerview/easyrecyclerview.iml" filepath="$PROJECT_DIR$/easyrecyclerview/easyrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fillablelibrary/fillablelibrary.iml" filepath="$PROJECT_DIR$/fillablelibrary/fillablelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filterlibrary/filterlibrary.iml" filepath="$PROJECT_DIR$/filterlibrary/filterlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/focusresize/focusresize.iml" filepath="$PROJECT_DIR$/focusresize/focusresize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentanimations/fragmentanimations.iml" filepath="$PROJECT_DIR$/fragmentanimations/fragmentanimations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headerfooterrecyclerview/headerfooterrecyclerview.iml" filepath="$PROJECT_DIR$/headerfooterrecyclerview/headerfooterrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heartlayout/heartlayout.iml" filepath="$PROJECT_DIR$/heartlayout/heartlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hivelayoutmanager-library/hivelayoutmanager-library.iml" filepath="$PROJECT_DIR$/hivelayoutmanager-library/hivelayoutmanager-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infinitecycleviewpager/infinitecycleviewpager.iml" filepath="$PROJECT_DIR$/infinitecycleviewpager/infinitecycleviewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libloading/libloading.iml" filepath="$PROJECT_DIR$/libloading/libloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/librarys/librarys.iml" filepath="$PROJECT_DIR$/librarys/librarys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadlibrary/loadlibrary.iml" filepath="$PROJECT_DIR$/loadlibrary/loadlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadtoast/loadtoast.iml" filepath="$PROJECT_DIR$/loadtoast/loadtoast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marypopup/marypopup.iml" filepath="$PROJECT_DIR$/marypopup/marypopup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerrefreshlayout/recyclerrefreshlayout.iml" filepath="$PROJECT_DIR$/recyclerrefreshlayout/recyclerrefreshlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roundimageview/roundimageview.iml" filepath="$PROJECT_DIR$/roundimageview/roundimageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rubberlibrary/rubberlibrary.iml" filepath="$PROJECT_DIR$/rubberlibrary/rubberlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searchlibrary/searchlibrary.iml" filepath="$PROJECT_DIR$/searchlibrary/searchlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shapeloading/shapeloading.iml" filepath="$PROJECT_DIR$/shapeloading/shapeloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shinebuttonlib/shinebuttonlib.iml" filepath="$PROJECT_DIR$/shinebuttonlib/shinebuttonlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spacetablayout/spacetablayout.iml" filepath="$PROJECT_DIR$/spacetablayout/spacetablayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spiderwebscoreview/spiderwebscoreview.iml" filepath="$PROJECT_DIR$/spiderwebscoreview/spiderwebscoreview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spinkitlibrary/spinkitlibrary.iml" filepath="$PROJECT_DIR$/spinkitlibrary/spinkitlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sweetsheet/sweetsheet.iml" filepath="$PROJECT_DIR$/sweetsheet/sweetsheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipebackhelper/swipebackhelper.iml" filepath="$PROJECT_DIR$/swipebackhelper/swipebackhelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipeslibrary/swipeslibrary.iml" filepath="$PROJECT_DIR$/swipeslibrary/swipeslibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view/view.iml" filepath="$PROJECT_DIR$/view/view.iml" />
+    </modules>
+  </component>
+</project>

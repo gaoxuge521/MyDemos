@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\demos\MyDemos\MyDemos\shinebuttonlib\src\main\assets"/><source path="D:\demos\MyDemos\MyDemos\shinebuttonlib\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\demos\MyDemos\MyDemos\shinebuttonlib\src\release\assets"/></dataSet></merger>

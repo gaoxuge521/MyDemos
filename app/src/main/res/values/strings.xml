@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">MyDemos</string>
+
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+
+    <string name="message">Check an email for a confirmation, We\'ll se you at <b>11:00am</b> on <b>Thur 15 Aug.</b></string>
+    <string name="title">All Set</string>
+
+
+    <string name="action_refresh">Refresh</string>
+
+    <string name="btn_change_color">Change the color</string>
+
+    <!--万能下拉刷新-->
+    <string name="label_refresh">Open Project</string>
+
+    <string name="loading_text">loading</string>
+    <string name="no_more">no more</string>
+
+    <string name="tab_normal">normal</string>
+    <string name="tab_float">float</string>
+    <string name="tab_pinned">pinned</string>
+
+    <string name="content">Adapter: A subclass of RecyclerView.Adapter responsible for providing views that represent items in a data set.
+Position: The position of a data item within an Adapter.
+Index: The index of an attached child view as used in a call to getChildAt(int). Contrast with Position.
+Binding: The process of preparing a child view to display data corresponding to a position within the adapter.
+Dirty (view): A child view that must be rebound by the adapter before being displayed.</string>
+    <!--万能下拉刷新-->
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh_and_more">Refresh&amp;More</string>
+    <string name="header_and_footer">Header&amp;Footer</string>
+    <string name="multi_style">MultiType</string>
+    <string name="collapsing">Collapsing</string>
+    <string name="staggered_grid">StaggeredGrid</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="stiky_header">StickyHeader</string>
+    <string name="insert">Insert</string>
+
+
+    <!--弧度视图-->
+    <string name="description">After the formation of the Galactic Empire, the Rebel Alliance recruits Jyn Erso (Felicity Jones) to work with a team including Cassian Andor (Diego Luna) to steal the design schematics of the Empire\'s new superweapon, the Death Star.</string>
+    <string name="development">In February 2013, The Walt Disney Company CEO Bob Iger confirmed the development of two stand-alone films, each individually written by Lawrence Kasdan and Simon Kinberg. On February 6, Entertainment Weekly reported that Lucasfilm is working on two films featuring Han Solo and Boba Fett. Disney CFO Jay Rasulo has described the stand-alone films as origin stories. Kathleen Kennedy explained that the stand-alone films will not crossover with the films of the sequel trilogy…</string>
+    <!--弧度视图-->
+
+    <!--语音识别-->
+    <string name="pref_key_iat_show">iat_show</string>
+    <string name="text_begin">请开始说话…</string>
+    <!--语音识别-->
+
+
+    <!--百度地图-->
+    <string name="demo_name_basemap">基本地图功能</string>
+    <string name="demo_name_location">定位图层展示</string>
+    <string name="demo_name_route">路径规划功能</string>
+    <string name="demo_name_poi">POI搜索功能</string>
+    <string name="key_error">"请在  DemoApplication.java文件输入正确的授权Key！"</string>
+    <string name="location">定位</string>
+    <string name="route_plan">路径规划</string>
+    <string name="offline_map">离线地图</string>
+    <string name="nearby_search">附近</string>
+    <string name="about">关于</string>
+    <string name="mode_putong">普通</string>
+    <string name="mode_gensui">跟随</string>
+    <string name="mode_luopan">罗盘</string>
+    <string name="map_zhengchang">正常图</string>
+    <string name="map_weixing">卫星图</string>
+    <string name="map_traffic">交通图</string>
+    <string name="map_heat">热力图</string>
+    <string name="input_city">输入城市</string>
+    <string name="search">搜索</string>
+    <string name="city_list">城市列表</string>
+    <string name="download_manage">下载管理</string>
+    <string name="hasdownload">已下载:--</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="delete">删除</string>
+    <string name="hotcity">热门城市</string>
+    <string name="allcountry">全国</string>
+    <string name="download_city">已下载城市</string>
+    <string name="number">131</string>
+    <string name="starting_point">起点：</string>
+    <string name="my_location">我的位置</string>
+    <string name="drive_search">驾车搜索</string>
+    <string name="bus_search">公交搜索</string>
+    <string name="walk_search">步行搜索</string>
+    <string name="destination">终点</string>
+    <string name="route_info">路线详情</string>
+    <string name="see">查看</string>
+    <!--百度地图-->
+
+    <!--双向的viewpager-->
+    <string-array name="main">
+        <item>Simple Vertical Pager with fixed views</item>
+        <item>Infinite Vertical Pager</item>
+        <item>Infinite Horizontal Pager</item>
+        <item>Infinite Vertical-Horizontal Pager</item>
+    </string-array>
+    <string name="github_project">This project at github</string>
+    <string name="contact_with_author">Contact with author</string>
+    <string name="github">Github</string>
+    <string name="site">Site</string>
+    <string name="google_plus">Google+</string>
+
+    <string name="github_project_link">https://github.com/alexzaitsev/freepager/</string>
+    <string name="github_me_link">https://github.com/alexzaitsev/</string>
+    <string name="site_me_link">http://alex-zaitsev.pro/</string>
+    <string name="google_plus_me_link">https://plus.google.com/+AlexanderZaitsevDev/</string>
+    <!--双向的viewpager-->
+
+
+</resources>

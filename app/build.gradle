@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "com.yc.mdemos.mydemos"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    //fragment切换动画
+    compile project(':fragmentanimations')
+    compile 'com.android.support:design:25.0.0'
+    //    compile 'com.android.support:support-v4:24.1.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.deploygate:sdk:3.1'
+    //双向viewpager
+    compile 'com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4'
+    compile 'com.android.support:cardview-v7:25.0.0'
+    compile project(':loadtoast')
+    compile project(':view')
+    compile project(':library')
+    compile project(':infinitecycleviewpager')
+    compile project(':avatarimageviewlibrary')
+    compile project(':shinebuttonlib')
+    compile project(':focusresize')
+    compile project(':librarys')
+    compile 'com.ashokvarma.android:bottom-navigation-bar:1.3.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.github.ctiao:dfm:0.4.1'
+    compile project(':roundimageview')
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile project(':marypopup')
+    //点击放大
+    compile 'com.github.johnkil.android-robototextview:robototextview:2.5.0'
+    compile project(':headerfooterrecyclerview')
+    compile project(':Userguidelibrary')
+    compile project(':fillablelibrary')
+    compile project(':swipeslibrary')
+    //仿美团抛物线动画
+    compile 'com.android.support:recyclerview-v7:25.0.0'
+    compile 'com.zhy:base-rvadapter:3.0.3'
+    compile project(':circularmenu')
+    compile project(':recyclerrefreshlayout')
+    compile project(':swipebackhelper')
+    //滑动关闭activity
+
+    //    compile 'com.jude:easyrecyclerview:4.3.3'
+    compile 'com.jude:rollviewpager:1.2.9'
+    compile 'com.jude:utils:1.1.1'
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.facebook.fresco:fresco:0.13.0'
+    compile project(':easyrecyclerview')
+    compile 'jp.wasabeef:glide-transformations:1.3.1'
+    compile 'com.github.clans:fab:1.6.0'
+    compile project(':arclayout')
+    //    弧度视图
+    compile 'com.flaviofaria:kenburnsview:1.0.7'
+    compile project(':spacetablayout')
+    compile project(':sweetsheet')
+    compile project(':spiderwebscoreview')
+    compile project(':heartlayout')
+    compile project(':searchlibrary')
+    compile project(':filterlibrary')
+    compile project(':loadlibrary')
+    compile project(':shapeloading')
+    compile project(':hivelayoutmanager-library')
+    //仿饿了么
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile project(':spinkitlibrary')
+    compile project(':rubberlibrary')
+    compile project(':libloading')
+
+
+
+}

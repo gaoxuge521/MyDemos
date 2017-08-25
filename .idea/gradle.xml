@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Userguidelibrary" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/arclayout" />
+            <option value="$PROJECT_DIR$/avatarimageviewlibrary" />
+            <option value="$PROJECT_DIR$/circularmenu" />
+            <option value="$PROJECT_DIR$/easyrecyclerview" />
+            <option value="$PROJECT_DIR$/fillablelibrary" />
+            <option value="$PROJECT_DIR$/filterlibrary" />
+            <option value="$PROJECT_DIR$/focusresize" />
+            <option value="$PROJECT_DIR$/fragmentanimations" />
+            <option value="$PROJECT_DIR$/headerfooterrecyclerview" />
+            <option value="$PROJECT_DIR$/heartlayout" />
+            <option value="$PROJECT_DIR$/hivelayoutmanager-library" />
+            <option value="$PROJECT_DIR$/infinitecycleviewpager" />
+            <option value="$PROJECT_DIR$/libloading" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/librarys" />
+            <option value="$PROJECT_DIR$/loadlibrary" />
+            <option value="$PROJECT_DIR$/loadtoast" />
+            <option value="$PROJECT_DIR$/marypopup" />
+            <option value="$PROJECT_DIR$/recyclerrefreshlayout" />
+            <option value="$PROJECT_DIR$/roundimageview" />
+            <option value="$PROJECT_DIR$/rubberlibrary" />
+            <option value="$PROJECT_DIR$/searchlibrary" />
+            <option value="$PROJECT_DIR$/shapeloading" />
+            <option value="$PROJECT_DIR$/shinebuttonlib" />
+            <option value="$PROJECT_DIR$/spacetablayout" />
+            <option value="$PROJECT_DIR$/spiderwebscoreview" />
+            <option value="$PROJECT_DIR$/spinkitlibrary" />
+            <option value="$PROJECT_DIR$/sweetsheet" />
+            <option value="$PROJECT_DIR$/swipebackhelper" />
+            <option value="$PROJECT_DIR$/swipeslibrary" />
+            <option value="$PROJECT_DIR$/view" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Userguidelibrary" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/arclayout" />
+            <option value="$PROJECT_DIR$/avatarimageviewlibrary" />
+            <option value="$PROJECT_DIR$/circularmenu" />
+            <option value="$PROJECT_DIR$/easyrecyclerview" />
+            <option value="$PROJECT_DIR$/fillablelibrary" />
+            <option value="$PROJECT_DIR$/filterlibrary" />
+            <option value="$PROJECT_DIR$/focusresize" />
+            <option value="$PROJECT_DIR$/fragmentanimations" />
+            <option value="$PROJECT_DIR$/headerfooterrecyclerview" />
+            <option value="$PROJECT_DIR$/heartlayout" />
+            <option value="$PROJECT_DIR$/hivelayoutmanager-library" />
+            <option value="$PROJECT_DIR$/infinitecycleviewpager" />
+            <option value="$PROJECT_DIR$/libloading" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/librarys" />
+            <option value="$PROJECT_DIR$/loadlibrary" />
+            <option value="$PROJECT_DIR$/loadtoast" />
+            <option value="$PROJECT_DIR$/marypopup" />
+            <option value="$PROJECT_DIR$/recyclerrefreshlayout" />
+            <option value="$PROJECT_DIR$/roundimageview" />
+            <option value="$PROJECT_DIR$/rubberlibrary" />
+            <option value="$PROJECT_DIR$/searchlibrary" />
+            <option value="$PROJECT_DIR$/shapeloading" />
+            <option value="$PROJECT_DIR$/shinebuttonlib" />
+            <option value="$PROJECT_DIR$/spacetablayout" />
+            <option value="$PROJECT_DIR$/spiderwebscoreview" />
+            <option value="$PROJECT_DIR$/spinkitlibrary" />
+            <option value="$PROJECT_DIR$/sweetsheet" />
+            <option value="$PROJECT_DIR$/swipebackhelper" />
+            <option value="$PROJECT_DIR$/swipeslibrary" />
+            <option value="$PROJECT_DIR$/view" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
